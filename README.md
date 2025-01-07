@@ -1,0 +1,1 @@
+This repository contains an example of a common logic error in Ada code. The `Check_Range` function correctly checks if a number is within the range 10-20. However, the `Main` procedure does not handle the `False` result correctly, leading to a logic error. The `bugSolution.ada` file provides a corrected version.
